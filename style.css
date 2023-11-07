@@ -64,6 +64,33 @@ body{
     justify-content: center;
     align-items: center;
     /* border: 2px solid red; */
+}
+.forecast-details{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    height: 72vh;
+    padding: 1rem;
+    align-items: center;
+    width: 30vw;
+    position: relative;
+    box-shadow: 0px 0px 10px aqua;
+}
+.forecast-details .days-content{
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+    top: 15%;
+}
+
+
+.days-content .ds-content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
